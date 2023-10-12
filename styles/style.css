@@ -1,3 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+* {
+  margin: 0%;
+  font-family: "Nunito", sans-serif;
+}
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 4rem;
+  padding-block: 0.5rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.02), 0px 10px 15px -3px rgba(0, 0, 0, 0.029);
+  margin-bottom: 6rem;
+}
+header img {
+  max-width: 50px;
+}
+
+nav ol {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  align-items: center;
+}
+nav ol li {
+  border-color: #ed6336;
+  border-bottom: solid transparent;
+  padding-block: 1rem;
+}
+nav ol li.menu-item:hover {
+  color: #ed6336;
+  border-color: #ed6336;
+  border-bottom: solid;
+  padding-block: 1rem;
+}
+
+section {
+  padding-inline: 4rem;
+}
+section div.heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #ed6336;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding-block-end: 0.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a p.orange-decor {
+  padding: 1.3rem 2rem;
+  background-color: #ed6336;
+  border-radius: 0px 30px 30px 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+div.hover-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block-start: 2rem;
+}
+
+div.hover-1,
+div.hover-2,
+div.hover-3 {
+  background-color: #ed6336;
+  width: 21rem;
+  height: 26rem;
+  border-radius: 50px;
+}
+
+div.hover-1 {
+  background-image: url(../images/01.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+div.hover-1 p {
+  display: none;
+}
+
+div.hover-1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/01.jpg);
+}
+div.hover-1:hover p {
+  color: white;
+  display: block;
+}
+div.hover-1:hover p.small-text {
+  text-transform: uppercase;
+}
+div.hover-1:hover p.big-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+div.hover-2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/02.jpg);
+}
+div.hover-2:hover p {
+  color: white;
+  display: block;
+}
+div.hover-2:hover p.small-text {
+  text-transform: uppercase;
+}
+div.hover-2:hover p.big-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+div.hover-3:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/03.jpg);
+}
+div.hover-3:hover p {
+  color: white;
+  display: block;
+}
+div.hover-3:hover p.small-text {
+  text-transform: uppercase;
+}
+div.hover-3:hover p.big-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+div.hover-2 {
+  background-image: url(../images/02.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+div.hover-2 p {
+  display: none;
+}
+
+div.hover-3 {
+  background-image: url(../images/03.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+div.hover-3 p {
+  display: none;
+}
+
+.frame-decoration {
+  border-style: solid;
+  padding: 0.5rem 1rem;
+  border-color: #ed6336;
+  text-transform: uppercase;
+  border-radius: 0px 30px 30px 30px;
+  border-width: 2px;
+}
 
 /*# sourceMappingURL=style.css.map */
